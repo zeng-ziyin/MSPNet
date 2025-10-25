@@ -1,8 +1,6 @@
 # MSPNet: A Multi-Scale Pyramid Network for Semantic Segmentation of Urban-Scale Photogrammetric Point Clouds
 
-This is the official implementation of **MSPNet**, a simple and efficient neural architecture for semantic segmentation of large-scale 3D point clouds. For technical details, please refer to:
- 
-**MSPNet: A Multi-Scale Pyramid Network for Semantic Segmentation of Urban-Scale Photogrammetric Point Clouds** <br />
+This is the official implementation of **MSPNet: A Multi-Scale Pyramid Network for Semantic Segmentation of Urban-Scale Photogrammetric Point Clouds** <br />
 Ziyin Zeng, Honglin Chen, Jian Zhou*, Bijun Li, and Ruili Wang. <br />
 
 ### (1) Setup
