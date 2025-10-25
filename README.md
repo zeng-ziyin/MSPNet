@@ -18,7 +18,7 @@ sh compile_op.sh
 ```
 
 ### (2) Data Prepare
-- Download HRHD-HK, UrbanBIS, SensatUrban, (optional) S3DIS, (optional) ScanNet
+- Download HRHD-HK, UrbanBIS, SensatUrban, (optional) S3DIS, (optional) ScanNet, and then
 ```
 cd utils/
 python data_prepare_$data_you_want_use$.py
