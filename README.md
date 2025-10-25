@@ -1,7 +1,7 @@
 # MSPNet: A Multi-Scale Pyramid Network for Semantic Segmentation of Urban-Scale Photogrammetric Point Clouds
 
-This is the official implementation of **MSPNet: A Multi-Scale Pyramid Network for Semantic Segmentation of Urban-Scale Photogrammetric Point Clouds** <br />
-Ziyin Zeng, Honglin Chen, Jian Zhou*, Bijun Li, and Ruili Wang. <br />
+This is the official Tensorflow implementation of **MSPNet: A Multi-Scale Pyramid Network for Semantic Segmentation of Urban-Scale Photogrammetric Point Clouds** <br />
+by: Ziyin Zeng, Honglin Chen, Jian Zhou*, Bijun Li, and Ruili Wang. <br />
 
 ### (1) Setup
 This code has been tested with Python 3.8, Tensorflow 2.4, CUDA 11.0 and cuDNN 8.0.5 on Ubuntu 20.04.
