@@ -3,11 +3,14 @@
 This is the official implementation of **MSPNet**, a simple and efficient neural architecture for semantic segmentation of large-scale 3D point clouds. For technical details, please refer to:
  
 **MSPNet: A Multi-Scale Pyramid Network for Semantic Segmentation of Urban-Scale Photogrammetric Point Clouds** <br />
-[Ziyin Zeng], [Honglin Chen], [Jian Zhou*], [Bijun Li], [Ruili Wang](http://yulanguo.me/), [Zhihua Wang](https://www.cs.ox.ac.uk/people/zhihua.wang/), [Niki Trigoni](https://www.cs.ox.ac.uk/people/niki.trigoni/), [Andrew Markham](https://www.cs.ox.ac.uk/people/andrew.markham/). <br />
+Ziyin Zeng, Honglin Chen, Jian Zhou*, Bijun Li, and Ruili Wang. <br />
 
 ### (1) Setup
 This code has been tested with Python 3.8, Tensorflow 2.4, CUDA 11.0 and cuDNN 8.0.5 on Ubuntu 20.04.
-
+- Clone the repository 
+```
+git clone --depth=1 https://github.com/zeng-ziyin/MSPNet && cd MSPNet
+```
 - Setup python environment
 ```
 conda create -n unext python=3.8
@@ -17,6 +20,7 @@ sh compile_op.sh
 ```
 
 ### (2) Data Prepare
+- Download HRHD-HK, UrbanBIS, SensatUrban, (optional) S3DIS, (optional) ScanNet
 ```
 cd utils/
 python data_prepare_$data_you_want_use$.py
